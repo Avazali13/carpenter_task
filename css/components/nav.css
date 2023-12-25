@@ -1,0 +1,44 @@
+nav {
+  position: relative;
+  background-color: white;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+nav .container h2 {
+  color: #ab7442 !important;
+  margin-top: 1.5rem;
+  padding-left: 3rem !important;
+}
+nav .container .collapse {
+  align-items: center;
+  display: flex;
+}
+nav .container .collapse .navbar-nav {
+  display: flex;
+}
+nav .container .collapse .navbar-nav .nav-link {
+  margin-right: 30px;
+  color: #353535;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  outline: none;
+}
+nav .container .collapse .navbar-nav .dropdown {
+  display: none;
+}
+nav .container .btn {
+  background-color: #ab7442;
+  width: 198px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  height: 75px;
+  padding-top: 1.8rem !important;
+  border-radius: 3px;
+}
+nav .container .btn i {
+  margin-left: 0.8rem;
+}

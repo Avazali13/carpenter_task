@@ -1,0 +1,44 @@
+.fluid {
+  height: 53px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fluid small {
+  font-size: 0.875em;
+}
+.fluid .me-2 {
+  color: #ab7442 !important;
+}
+.fluid .left {
+  display: flex;
+  gap: 18px;
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.fluid .right {
+  display: flex;
+  padding-right: 3rem !important;
+}
+.fluid .right .icon {
+  margin-right: 1.5rem !important;
+}
+.fluid .right .btn-sm-square {
+  width: 32px;
+  height: 32px;
+  margin: 0 4px 0 0;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: none;
+  border-radius: 5px;
+}
+.fluid .right .me-1 {
+  margin-right: 0.25rem !important;
+  color: #ab7442 !important;
+  padding: 5px;
+}
+.fluid .right .me-0 {
+  color: #ab7442;
+  padding: 5px;
+}

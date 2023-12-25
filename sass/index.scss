@@ -1,5 +1,7 @@
 @import 'base';
 @import 'variables';
-@import 'components/header';
-@import 'components/sections';
-@import 'components/footer'
+@import "./components/fluid.scss";
+@import './components/nav.scss';
+@import './components/sections.scss';
+
+

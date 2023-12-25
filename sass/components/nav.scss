@@ -1,0 +1,48 @@
+nav {
+position: relative;
+background-color: white;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      color: #ab7442 !important;
+      margin-top: 1.5rem;
+      padding-left: 3rem !important;
+    //   padding-right: 3rem !important;
+    }
+    .collapse {
+      align-items: center;
+      display: flex;
+
+      .navbar-nav {
+        display: flex;
+        .nav-link {
+          margin-right: 30px;
+          color: #353535;
+          font-size: 15px;
+          font-weight: 500;
+          text-transform: uppercase;
+          outline: none;
+        }
+       
+        .dropdown {
+          display: none;
+          }
+        }
+      }
+      .btn {
+        background-color: #ab7442;
+        width: 198px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        height: 75px;
+        padding-top: 1.8rem !important;
+        border-radius: 3px;
+        i {
+          margin-left: 0.8rem;
+        }
+      }
+    }
+  }
+
